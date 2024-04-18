@@ -1,0 +1,43 @@
+.contactItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+
+    max-width: 300px;
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.contactInfoContainer {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.contactInfoText {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.contactBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}

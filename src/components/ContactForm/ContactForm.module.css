@@ -1,0 +1,30 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+
+    align-items: center;
+
+    max-width: 300px;
+    width: 100%;
+
+    padding: 12px;
+    margin-bottom: 24px;
+
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+.contactLabel {
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
+
+    width: 100%;
+}
+
+.contactError {
+    color: red;
+}
